@@ -57,6 +57,7 @@
     <Compile Include="Feature.cs" />
     <Compile Include="FeatureDiagram.cs" />
     <Compile Include="FeatureRelation.cs" />
+    <Compile Include="GlobalConstants.cs" />
     <Compile Include="OpenDiagram.cs" />
     <Compile Include="OpenDiagramPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

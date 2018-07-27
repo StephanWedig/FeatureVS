@@ -3,8 +3,6 @@
   <IsAbstract>false</IsAbstract>
   <IsMandatory>false</IsMandatory>
   <Name>root</Name>
-  <XPos>387.5</XPos>
-  <YPos>25</YPos>
   <FeatureRelations>
     <FeatureRelation>
       <Children>
@@ -12,37 +10,59 @@
           <IsAbstract>false</IsAbstract>
           <IsMandatory>false</IsMandatory>
           <Name>A</Name>
-          <XPos>50</XPos>
-          <YPos>125</YPos>
-          <FeatureRelations />
+  <FeatureRelations>
+			<FeatureRelation>
+			  <Children>
+				<Feature>
+				  <IsAbstract>false</IsAbstract>
+				  <IsMandatory>false</IsMandatory>
+				  <Name>E</Name>
+				  <FeatureRelations />
+				</Feature>
+				<Feature>
+				  <IsAbstract>false</IsAbstract>
+				  <IsMandatory>false</IsMandatory>
+				  <Name>F</Name>
+				  <FeatureRelations />
+				</Feature>
+			  </Children>
+			  <Type>Other</Type>
+			</FeatureRelation>
+			<FeatureRelation>
+			  <Children>
+				<Feature>
+				  <IsAbstract>false</IsAbstract>
+				  <IsMandatory>false</IsMandatory>
+				  <Name>G</Name>
+				  <FeatureRelations />
+				</Feature>
+				<Feature>
+				  <IsAbstract>false</IsAbstract>
+				  <IsMandatory>false</IsMandatory>
+				  <Name>H</Name>
+				  <FeatureRelations />
+				</Feature>
+			  </Children>
+			  <Type>Other</Type>
+			</FeatureRelation>
+  </FeatureRelations>
         </Feature>
         <Feature>
           <IsAbstract>false</IsAbstract>
           <IsMandatory>false</IsMandatory>
           <Name>B</Name>
-          <XPos>275</XPos>
-          <YPos>125</YPos>
-          <FeatureRelations />
+  <FeatureRelations/>
         </Feature>
-      </Children>
-      <Type>Other</Type>
-    </FeatureRelation>
-    <FeatureRelation>
-      <Children>
         <Feature>
           <IsAbstract>false</IsAbstract>
           <IsMandatory>false</IsMandatory>
           <Name>C</Name>
-          <XPos>500</XPos>
-          <YPos>125</YPos>
           <FeatureRelations />
         </Feature>
         <Feature>
           <IsAbstract>false</IsAbstract>
           <IsMandatory>false</IsMandatory>
           <Name>D</Name>
-          <XPos>725</XPos>
-          <YPos>125</YPos>
           <FeatureRelations />
         </Feature>
       </Children>

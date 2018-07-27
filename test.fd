@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsAbstract>false</IsAbstract>
+  <IsMandatory>false</IsMandatory>
+  <Name>root</Name>
+  <FeatureRelations>
+    <FeatureRelation>
+      <Children>
+        <Feature>
+          <IsAbstract>false</IsAbstract>
+          <IsMandatory>false</IsMandatory>
+          <Name>A</Name>
+          <FeatureRelations />
+        </Feature>
+        <Feature>
+          <IsAbstract>false</IsAbstract>
+          <IsMandatory>false</IsMandatory>
+          <Name>B</Name>
+          <FeatureRelations />
+        </Feature>
+      </Children>
+      <Type>Other</Type>
+    </FeatureRelation>
+  </FeatureRelations>
+</Feature>

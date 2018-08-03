@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Shapes;
 
 namespace FeatureVS {
     [Serializable]
@@ -35,7 +36,7 @@ namespace FeatureVS {
         public void AddChildFeature(Feature child) {
             _childs.Add(child);
         }
-        public List<Feature> getChildFeature() {
+        public List<Feature> GetChildFeature() {
             return _childs;
         }
     }

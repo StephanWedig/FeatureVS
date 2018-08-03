@@ -8,6 +8,7 @@ using System.Windows.Shapes;
 namespace FeatureVS {
     [Serializable]
     public class Feature {
+        private Line _childLine = null;
         private bool _isAbstract = false;
         private bool _isMandatory = false;
         private List<FeatureRelation> _featureRelations = new List<FeatureRelation>();
@@ -46,6 +47,12 @@ namespace FeatureVS {
         }
         public TextBlock GetTextBlock() {
             return _textBlock;
+        }
+        public void SetChildLine(Line childLine) {
+            _childLine = childLine;
+        }
+        public Line GetChildLine() {
+            return _childLine;
         }
     }
 }

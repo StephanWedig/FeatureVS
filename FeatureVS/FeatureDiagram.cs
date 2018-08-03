@@ -69,7 +69,7 @@ namespace FeatureVS {
 
             XmlSerializer ser = new XmlSerializer(typeof(Feature));
 
-            System.Diagnostics.Debug.WriteLine(RootFeature.GetRelations()[0].getChildFeature().Count);
+            System.Diagnostics.Debug.WriteLine(RootFeature.GetRelations()[0].GetChildFeature().Count);
             TextWriter writer = new StreamWriter(_Filename,false);
             ser.Serialize(writer, _rootFeature);
             writer.Close();
